@@ -11,7 +11,7 @@ while True:
     lohit_frame=input('enter name of belt color: ')
     lohit_belts[lohit_program]=[lohit_frame]
 
-    another=input('add another program? y/n')
+    another=input('add another program? y/n ')
     if another =='y':
         continue
     else:
