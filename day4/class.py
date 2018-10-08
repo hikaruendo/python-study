@@ -1,6 +1,8 @@
-from planet import Planet
+#from planet import Planet
 
-from calc import planet_mass, planet_vol
+#from calc import planet_mass, planet_vol
+from source.planet import Planet
+from source.calc import planet_mass, planet_vol
 
 naboo=Planet('naboo',10,122)
 naboo_mass=planet_mass(naboo.gravity,naboo.radius)
